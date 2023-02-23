@@ -1,7 +1,6 @@
 const express = require("express");
 const { check, validationResult } = require("express-validator");
 const userRouter = express.Router();
-userRouter.use(express.urlencoded({ extended: true }));
 
 // List of Users
 let users = [

@@ -1,7 +1,6 @@
 const express = require("express");
 const { check, validationResult } = require("express-validator");
 const fruitRouter = express.Router();
-fruitRouter.use(express.urlencoded({ extended: true }));
 
 // List of Fruits
 let fruits = [
